@@ -68,8 +68,8 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-Bootstrap"
     },
     {
       skillName: "JavaScript",
@@ -83,23 +83,23 @@ const skillsSection = {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
+    // {
+    //   skillName: "java",
+    //   fontAwesomeClassname: "fab fa-java"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
    
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
     {
       skillName: "mongodb",
       fontAwesomeClassname: "fab fa-Mongodb"
@@ -227,8 +227,19 @@ const bigProjects = {
       projectDesc: "",
       footerLink: [
         {
-          name: "Chech out For more projects",
+          name: "More Projects",
           url: "https://github.com/Midecoder19"
+        }
+      ]
+    },
+    {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Project Managemnet",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Visit website",
+          url: "projects-managent.vercel.app"
         }
       ]
     }
