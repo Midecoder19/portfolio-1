@@ -223,6 +223,17 @@ const bigProjects = {
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Project Managemnet",
+      projectDesc: "Website use for managing and tracking your project",
+      footerLink: [
+        {
+          name: "Visit website",
+          url: "projects-managent.vercel.app"
+        }
+      ]
+    },
+    {
+      // image: require("./assets/images/nextuLogo.webp"),
       projectName: "",
       projectDesc: "",
       footerLink: [
@@ -231,18 +242,8 @@ const bigProjects = {
           url: "https://github.com/Midecoder19"
         }
       ]
-    },
-    {
-      // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Project Managemnet",
-      projectDesc: "",
-      footerLink: [
-        {
-          name: "Visit website",
-          url: "projects-managent.vercel.app"
-        }
-      ]
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
