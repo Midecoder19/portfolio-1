@@ -271,7 +271,7 @@ const achievementSection = {
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: ""
+          url: "https://github.com/Midecoder19/school-management"
         }
       ]
     }
