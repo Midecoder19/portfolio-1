@@ -118,7 +118,7 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "2015 - 2021",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Participated in the research of web and published 3 papers.",
      
     },
     {
