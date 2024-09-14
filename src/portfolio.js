@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "file:///C:/Users/ayomi/Downloa", // Set to empty to hide the button
+    "file:///C:/Users/ayomi/Download", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -53,7 +53,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications in normal and SPA Stacks"),
     
   ],
 
@@ -117,18 +117,15 @@ const educationInfo = {
       schoolName: "Talent Model College",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2015 - September 2021",
+      duration: "2015 - 2021",
       desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+     
     },
     {
       schoolName: "The Polytechnic Ibadan",
       logo: require("./assets/images/polylogo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      duration: "2022 - 2024",
       desc: "Ranked top 90% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [""]
     }
@@ -164,20 +161,27 @@ const workExperiences = {
     {
       role: "Web Developer",
       company: "Boldlinks Technology",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/1726316007732.jpg"),
+      date: "June 2021 – 2023",
+      desc: "As a Web Developer, I specialize in creating dynamic and responsive websites for diverse clients, ensuring optimal performance, and implementing best practices in UI/UX",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed and maintained multiple web applications using modern JavaScript frameworks like React.",
+        "Optimized website performance and SEO, improving page load time by 30%.",
+        "Led backend integration using Node.js and Express, ensuring secure and scalable web solutions."
       ]
     },
     {
       role: "Front-End Developer",
       company: "NextSwitch",
       companylogo: require("./assets/images/log.jpg"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "2023 – 2024",
+      desc: "As a Front-End Developer, I was responsible for crafting user-friendly and visually engaging web interfaces using HTML, CSS, and JavaScript. My role focused on creating responsive and interactive websites that enhanced the user experience.",
+      descBullets:[
+        "Developed high-quality, responsive web pages using HTML5, CSS3, and JavaScript.",
+        "Optimized website performance and usability, improving page load times by 25%.",
+        "Utilized frameworks like Bootstrap and jQuery to streamline development and ensure mobile responsiveness."
+        
+      ]
     },
    
   ]
@@ -259,15 +263,15 @@ const achievementSection = {
   achievementsCards: [
    
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Bl Web App Developer",
+      subtitle: "Completed Certifcation from Boldlinks Web App Development",
+      image: require("./assets/images/1726316007732.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: ""
         }
       ]
     }
@@ -344,8 +348,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+234 9075628234",
-  email_address: "midecoder1@gmail.com"
+  number: "+234(9075628234)",
+  email_address: "ayomidebabarinde07@gmail.com"
 };
 
 // Twitter Section

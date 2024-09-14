@@ -13,10 +13,9 @@ export default function Footer() {
           {emoji("Made with ❤️ by MIDECODER")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
+          Theme by{"  "}
           <a href="https://midecoder-portfolio.vercel.app/">
-            M
-            888IDECODER
+           Midecoder
           </a>
         </p>
       </div>
