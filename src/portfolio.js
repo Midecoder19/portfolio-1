@@ -96,10 +96,10 @@ const skillsSection = {
     //   fontAwesomeClassname: "fas fa-database"
     // },
    
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
     {
       skillName: "mongodb",
       fontAwesomeClassname: "fab fa-Mongodb"
