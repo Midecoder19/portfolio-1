@@ -37,12 +37,12 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-di ">
+              <div className="button-greeting-di">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (  
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={require("./midecoder-Resume.pdf")}
+                    download="midecoder-Resume.pdf"
                     className="download-link-button "
                   >
                     <Button text="Download my resume" />

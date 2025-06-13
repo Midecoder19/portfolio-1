@@ -1,10 +1,6 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+import splashAnimation from "./assets/lottie/splashAnimation"; 
 // Splash Screen
 
 const splashScreen = {
@@ -16,17 +12,17 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 const greeting = {
   username: "Midecoder",
-  title: "Hi all, I'm Ayomide",
+  title: "Hi, I'm Ayomide",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with hands-on experience in building modern, high-performance web applications using JavaScript, React.js, Node.js, Python, and other powerful frameworks and tools. I focus on writing clean, scalable code and delivering impactful solutions through intuitive UI and robust backend systems."
   ),
   resumeLink:
-    "file:///C:/Users/ayomi/Download", // Set to empty to hide the button
+    "file:///C:/Users/ayomi/Downloads/Ayomide-Babarinde-FlowCV-Resume-20250611.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -126,7 +122,7 @@ const educationInfo = {
       logo: require("./assets/images/polylogo.jpg"),
       subHeader: "National Diploma in Computer Science",
       duration: "2022 - 2024",
-      desc: "Ranked top 90% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Ranked top 90% in the program. Took courses about Software Engineering, Web Security, Operating Systems...",
       descBullets: [""]
     }
   ]
@@ -185,10 +181,8 @@ const workExperiences = {
     },
    
   ]
-};
+};                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -203,12 +197,12 @@ const bigProjects = {
   projects: [
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Little Lemon",
-      projectDesc: "This is a Web app that allow user to buy products online .",
+      projectName: "Blog website",
+      projectDesc: "A modern and responsive blogging platform built for sharing articles and stories with ease.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://e-shop-azure-zeta.vercel.app/"
+          url: "https://blogging-site-official.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
@@ -216,12 +210,12 @@ const bigProjects = {
     
     {
       // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Business-Consulting",
-      projectDesc: "This was built using reactjs",
+      projectName: "Freelance Platform",
+      projectDesc: "A modern freelance platform for connecting service providers with client",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://business-consulting-gamma.vercel.app/"
+          url: "https://gig-x.netlify.app/"
         }
       ]
     },
