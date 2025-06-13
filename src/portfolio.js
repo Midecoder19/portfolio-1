@@ -123,7 +123,7 @@ const educationInfo = {
       subHeader: "National Diploma in Computer Science",
       duration: "2022 - 2024",
       desc: "Ranked top 90% in the program. Took courses about Software Engineering, Web Security, Operating Systems...",
-      descBullets: [""]
+      descBullets: []
     }
   ]
 };
